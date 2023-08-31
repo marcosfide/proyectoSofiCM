@@ -122,7 +122,7 @@ footer .footer-contactos{
 /* Inicio */
 
 
-@media(min-width:575px){
+@media(min-width:990px){
     .main .inicio{
         display: flex;
         justify-content: space-evenly;
@@ -135,12 +135,12 @@ footer .footer-contactos{
     font-family: 'Merriweather', serif;
     padding: 45px;
 }
-@media(min-width:575px){
+@media(min-width:990px){
     .main .intro-inicio{
         display: flex;
-        font-size: 20px;
-        width: 40vw;
+        width: 60vw;
         padding: 15px;
+        flex-direction: column;
     }
 }
 
@@ -151,10 +151,12 @@ footer .footer-contactos{
 }
 .main .img-inicio {
     width: 80vw;
+    max-width: 300px;
 }
-@media(min-width:575px){
+@media(min-width:990px){
     .main .img-inicio {
         width: 32vw;
+        min-width: 380px;
     }
 }
 
