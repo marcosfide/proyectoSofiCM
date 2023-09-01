@@ -178,7 +178,12 @@ footer .footer-contactos{
     border-radius: 10px;
     margin: 30px;
     text-align: center;
-    
+}
+@media(min-width:750px){
+    .container-experiencia{
+        margin: 30px auto;
+        max-width: 700px;
+    }
 }
 
 ul li{
@@ -312,6 +317,4 @@ ul li{
     
     .area-form { grid-area: area-form; }
       
-    .form{
-    }
 }
