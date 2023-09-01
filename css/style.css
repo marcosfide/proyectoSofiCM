@@ -223,13 +223,13 @@ ul li{
 .container-certificacion{
     border: 2px solid #333;
     border-radius: 10px;
-    width: 30vw;
-    height: 30vh;
     margin: 50px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    max-width: 350px;
+    min-height: 150px;
     
 }
 
