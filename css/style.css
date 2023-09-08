@@ -264,7 +264,8 @@ ul li{
 .text-sobreMi{
     padding: 25px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    text-align: left;
 }
 .img-sobreMi{
     width: 65vw;
