@@ -1,0 +1,23 @@
+
+/* Experiencia profesional */
+
+.main .trabajos{
+    text-align: center;
+}
+
+.container-experiencia{
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+}
+@media(min-width:750px){
+    .container-experiencia{
+        margin: 30px auto;
+        max-width: 700px;
+    }
+}
+
+ul li{
+    list-style: none;
+}

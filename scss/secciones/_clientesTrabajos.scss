@@ -1,0 +1,21 @@
+
+/* Clientes y trabajos */
+
+.logo-empresa{
+    width: 120px;
+}
+
+.container-ejemplos{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 5px;
+    border-style: groove;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+.ejemplo-trabajo{
+    width: 120px;
+    border-radius: 5px;
+}

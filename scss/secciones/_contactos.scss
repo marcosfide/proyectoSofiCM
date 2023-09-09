@@ -1,0 +1,40 @@
+
+/*  Contactos  */
+  
+.form{
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 60px;
+    width: 400px;
+}
+
+.form textarea{
+    width: -webkit-fill-available;
+}
+
+.contactos{
+    max-width: none;
+}
+
+
+@media(min-width:775px){
+    .container {  display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "area-text area-form"
+        "area-text area-form";
+    }
+    
+    .area-text { grid-area: area-text; }
+    
+    
+    .area-form { grid-area: area-form; }
+      
+}

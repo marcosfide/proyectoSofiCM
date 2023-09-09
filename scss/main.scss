@@ -1,0 +1,23 @@
+/*ORDEN DE IMPORTACION: TIPOGRAFIAS; VARIABLES; COLORES; RESET; SECCIONES*/
+
+/* TIPOGRAFIA */
+@import './secciones/recursos/fuentes';
+
+/* VARIABLES */
+
+/* COLORES */
+
+/* RESET */
+@import './secciones/recursos/reset';
+/* BODY EN GENERAL */
+@import './secciones/body';
+
+/* SECCIONES */
+@import './secciones/header';
+@import './secciones/footer';
+@import './secciones/index';
+@import './secciones/experiencia';
+@import './secciones/clientesTrabajos';
+@import './secciones/formacion';
+@import './secciones/sobreMi';
+@import './secciones/contactos';
