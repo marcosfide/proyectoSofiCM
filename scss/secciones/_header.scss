@@ -1,42 +1,37 @@
 /*  Estilos del header  */
 
+header .container-header {
+  display: flex;
+  min-height: 90px;
+  justify-content: space-between;
+  flex-direction: row-reverse;
 
+  & .img-header {
+    margin: -20px 10px;
+    height: 150px;
+  }
+  & .name-menu {
+    margin: 2rem 0 1rem 3rem;
 
-header .container-header{
-    display: flex;
-    min-height: 90px;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-
-    & .img-header{
-        margin: -20px 10px;
-        height: 150px;
+    & .nombre-principal {
+      display: none;
     }
-    & .name-menu{
-        margin: 15px 10px 15px 20px;
-
-        & .nombre-principal{
-            display: none;
-        }
-        .nav li ul{
-            background-color: #fff2e0fc !important;
-        }
+    .nav li ul {
+      background-color: #fff2e0fc !important;
     }
+  }
 }
 
-
-
-@media(min-width:500px){
-    header .container-header{
-        flex-direction: row;
-    }
-    .container-header .name-menu{
-        display: inline;
-        margin: 15px 10px 15px 20px;
-        font-family: 'Merriweather', serif;
-    }
-    & .nombre-principal{
-        display: inline !important;
-    }
+@media (min-width: 500px) {
+  header .container-header {
+    flex-direction: row;
+  }
+  .container-header .name-menu {
+    display: inline;
+    margin: 2rem 0 1rem 3rem;
+    font-family: "Merriweather", serif;
+  }
+  & .nombre-principal {
+    display: inline !important;
+  }
 }
-
