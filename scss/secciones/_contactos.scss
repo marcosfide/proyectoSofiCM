@@ -1,4 +1,5 @@
 /*  Contactos  */
+@import './recursos/colores';
 
 .contactos {
   max-width: none;
@@ -10,8 +11,12 @@
     margin-top: 60px;
     width: 80vw;
     min-width: 18rem;
+    input{
+      background-color: $color-fondo;
+    }
     textarea {
       width: -webkit-fill-available;
+      background-color: $color-fondo;
     }
   }
 }

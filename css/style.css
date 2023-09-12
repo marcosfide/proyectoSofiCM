@@ -6,6 +6,7 @@
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Merriweather:ital,wght@0,400;1,400;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Merriweather:ital,wght@0,400;1,400;1,900&display=swap");
 :root,
 [data-bs-theme="light"] {
   --bs-blue: #0d6efd;
@@ -9287,14 +9288,18 @@ textarea.form-control-lg {
     display: none !important; } }
 
 /* TIPOGRAFIA */
+/* Importo fuentes */
+/* Defino variables de fuentes */
 /* VARIABLES */
 /* COLORES */
 /* RESET */
 /* Estilos generales para el cuerpo de la página */
+/* Importo fuentes */
+/* Defino variables de fuentes */
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Merriweather', serif; }
+  font-family: "Merriweather", serif; }
 
 /* BODY EN GENERAL */
 body {
@@ -9308,6 +9313,7 @@ body {
 
 /* SECCIONES */
 /*  Estilos del header  */
+/* Definiendo variables de colores */
 header .container-header {
   display: flex;
   min-height: 90px;
@@ -9318,7 +9324,7 @@ header .container-header {
     header .container-header .name-menu .nombre-principal {
       display: none; }
     header .container-header .name-menu .nav li ul {
-      background-color: #fff2e0fc !important; }
+      background-color: #fff7ecfc !important; }
   header .container-header .img-header {
     margin: -20px 10px;
     height: 150px; }
@@ -9328,8 +9334,7 @@ header .container-header {
     flex-direction: row; }
   .container-header .name-menu {
     display: inline;
-    margin: 2rem 0 1rem 3rem;
-    font-family: "Merriweather", serif; }
+    margin: 2rem 0 1rem 3rem; }
   .nombre-principal {
     display: inline !important; } }
 
@@ -9370,7 +9375,6 @@ footer .container-footer-volver {
 /* Inicio */
 .main .inicio .intro-inicio {
   align-items: center;
-  font-family: "Merriweather", serif;
   padding: 45px; }
 
 .main .inicio .img-inicio-container {
@@ -9490,6 +9494,7 @@ footer .container-footer-volver {
       min-width: 22rem; } }
 
 /*  Contactos  */
+/* Definiendo variables de colores */
 .contactos {
   max-width: none; }
   .contactos .form {
@@ -9500,8 +9505,11 @@ footer .container-footer-volver {
     margin-top: 60px;
     width: 80vw;
     min-width: 18rem; }
+    .contactos .form input {
+      background-color: #fff7ecfc; }
     .contactos .form textarea {
-      width: -webkit-fill-available; }
+      width: -webkit-fill-available;
+      background-color: #fff7ecfc; }
 
 @media (min-width: 775px) {
   .container {

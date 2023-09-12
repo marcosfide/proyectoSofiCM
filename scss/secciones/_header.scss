@@ -1,5 +1,7 @@
 /*  Estilos del header  */
 
+@import './recursos/colores';
+
 header {
   .container-header {
     display: flex;
@@ -14,7 +16,7 @@ header {
       .nav {
         li {
           ul {
-            background-color: #fff2e0fc !important;
+            background-color: $color-fondo !important;
           }
         }
       }
@@ -33,7 +35,6 @@ header {
   .container-header .name-menu {
     display: inline;
     margin: 2rem 0 1rem 3rem;
-    font-family: "Merriweather", serif;
   }
   & .nombre-principal {
     display: inline !important;
