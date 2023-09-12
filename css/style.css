@@ -9313,15 +9313,15 @@ header .container-header {
   min-height: 90px;
   justify-content: space-between;
   flex-direction: row-reverse; }
-  header .container-header .img-header {
-    margin: -20px 10px;
-    height: 150px; }
   header .container-header .name-menu {
     margin: 2rem 0 1rem 3rem; }
     header .container-header .name-menu .nombre-principal {
       display: none; }
     header .container-header .name-menu .nav li ul {
       background-color: #fff2e0fc !important; }
+  header .container-header .img-header {
+    margin: -20px 10px;
+    height: 150px; }
 
 @media (min-width: 500px) {
   header .container-header {
@@ -9334,47 +9334,38 @@ header .container-header {
     display: inline !important; } }
 
 /* Footer */
-.container-footer-contactos {
+footer .container-footer-contactos {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
   align-items: center;
-  margin: 0 0 0 3rem; }
-  .container-footer-contactos h4, .container-footer-contactos .h4 {
-    font-size: 20px; }
-  .container-footer-contactos .redes {
-    font-size: 14px; }
-  .container-footer-contactos .footer-contactos {
-    font-size: 14px; }
-  .container-footer-contactos ul {
-    margin-bottom: 0; }
-
-footer .redes {
-  list-style: none;
-  padding: 0 50px; }
-  footer .redes h4, footer .redes .h4 {
+  margin: 0 0 0 3rem;
+  font-size: 14px; }
+  footer .container-footer-contactos h4, footer .container-footer-contactos .h4 {
+    font-size: 20px;
     padding: 8px;
     margin-top: 10px; }
-  footer .redes li {
-    padding: 6px; }
+  footer .container-footer-contactos ul {
+    margin-bottom: 0;
+    list-style: none; }
+    footer .container-footer-contactos ul li {
+      padding: 6px; }
+  footer .container-footer-contactos .redes {
+    padding: 0 3rem; }
+  footer .container-footer-contactos .footer-contactos {
+    padding: 0 3rem; }
 
-footer .footer-contactos {
-  list-style: none;
-  padding: 0 50px; }
-  footer .footer-contactos h4, footer .footer-contactos .h4 {
-    padding: 8px;
-    margin-top: 10px; }
-  footer .footer-contactos li {
-    padding: 6px; }
-
-.container-footer-volver {
+footer .container-footer-volver {
   text-align: end;
   padding: 0 15px 10px 0; }
+  footer .container-footer-volver .volver-a-inicio {
+    display: inline-block;
+    text-align: end;
+    font-size: 12px; }
 
-.volver-a-inicio {
-  display: inline-block;
-  text-align: end;
-  font-size: 12px; }
+@media (max-width: 675px) {
+  footer .container-footer-contactos {
+    margin-left: 1rem; } }
 
 /* Inicio */
 .main .inicio .intro-inicio {
@@ -9470,35 +9461,33 @@ footer .footer-contactos {
   display: flex;
   align-items: center;
   flex-direction: column; }
+  .main .sobreMi .container-apartadoPersonal {
+    border: 2px solid #333;
+    border-radius: 10px;
+    width: 85vw;
+    margin: 30px;
+    padding: 30px;
+    text-align: center; }
+    .main .sobreMi .container-apartadoPersonal .text-img-personal {
+      display: flex;
+      flex-direction: column; }
+      .main .sobreMi .container-apartadoPersonal .text-img-personal .text-sobreMi {
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        text-align: left; }
+      .main .sobreMi .container-apartadoPersonal .text-img-personal .img-sobreMi {
+        width: 45vw;
+        min-width: 16rem;
+        padding: 25px;
+        margin: auto; }
 
-.container-apartadoPersonal {
-  border: 2px solid #333;
-  border-radius: 10px;
-  width: 85vw;
-  margin: 30px;
-  padding: 30px;
-  text-align: center; }
-
-.text-img-personal {
-  display: flex;
-  flex-direction: column; }
-
-.text-sobreMi {
-  padding: 25px;
-  display: flex;
-  flex-direction: column;
-  text-align: left; }
-
-.img-sobreMi {
-  width: 65vw;
-  padding: 25px;
-  margin: auto; }
-
-@media (min-width: 575px) {
-  .img-sobreMi {
-    width: 30vw;
-    padding: 25px;
-    margin: auto; } }
+@media (min-width: 950px) {
+  .main .sobreMi .container-apartadoPersonal .text-img-personal {
+    flex-direction: row; }
+    .main .sobreMi .container-apartadoPersonal .text-img-personal .img-sobreMi {
+      width: 30vw;
+      min-width: 22rem; } }
 
 /*  Contactos  */
 .contactos {
