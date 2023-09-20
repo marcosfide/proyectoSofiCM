@@ -7,6 +7,7 @@
     align-items: center;
     flex-direction: column;
     .container-apartadoPersonal {
+      background-color: $color3;
       border: 2px solid #333;
       border-radius: 10px;
       width: 85vw;
@@ -37,6 +38,7 @@
   .main {
     .sobreMi {
       .container-apartadoPersonal {
+        width: 75vw;
         .text-img-personal {
           flex-direction: row;
           .img-sobreMi {

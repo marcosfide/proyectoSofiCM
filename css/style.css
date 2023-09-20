@@ -9291,7 +9291,21 @@ textarea.form-control-lg {
 /* Importo fuentes */
 /* Defino variables de fuentes */
 /* VARIABLES */
+/*  Animaciones  */
+@keyframes aparicionElementos {
+  0% {
+    left: 180px; }
+  100% {
+    left: 0; } }
+
+@keyframes aparicionElementos2 {
+  0% {
+    right: 180px; }
+  100% {
+    right: 0; } }
+
 /* COLORES */
+/* Definiendo variables de colores */
 /* RESET */
 /* Estilos generales para el cuerpo de la página */
 /* Importo fuentes */
@@ -9403,11 +9417,27 @@ footer .container-footer-volver {
 .main .trabajos {
   text-align: center; }
   .main .trabajos .container-experiencia {
+    background-color: #F2DAC4;
     border: 2px solid #333;
     border-radius: 10px;
-    margin: 1rem; }
+    margin: 1rem;
+    transition: all 0.2s;
+    position: relative; }
     .main .trabajos .container-experiencia ul li {
       list-style: none; }
+  .main .trabajos .container-experiencia:hover {
+    scale: 1.08;
+    border-radius: 2px; }
+  .main .trabajos .par {
+    animation: aparicionElementos;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s; }
+  .main .trabajos .impar {
+    animation: aparicionElementos2;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s; }
 
 @media (min-width: 750px) {
   .main .trabajos .container-experiencia {
@@ -9424,14 +9454,12 @@ footer .container-footer-volver {
 .main .trabajos {
   text-align: center; }
   .main .trabajos .container-cliente {
+    background-color: #F2DAC4;
     border: 2px solid #333;
     border-radius: 10px;
-    margin: 1rem;
-    position: relative;
-    animation: aparicionElementos;
-    animation-duration: 2s;
-    animation-timing-function: ease;
-    animation-delay: 1s; }
+    max-width: 70rem;
+    margin: 1.5rem;
+    position: relative; }
     .main .trabajos .container-cliente .logo-empresa {
       width: 120px; }
     .main .trabajos .container-cliente .container-ejemplos {
@@ -9445,21 +9473,44 @@ footer .container-footer-volver {
       .main .trabajos .container-cliente .container-ejemplos .ejemplo-trabajo {
         width: 120px;
         border-radius: 5px;
-        transition: all 0.2s;
-        position: relative;
-        animation: aparicionElementos;
-        animation-duration: 2s;
-        animation-timing-function: ease;
-        animation-delay: 1s; }
+        transition: all 0.2s; }
       .main .trabajos .container-cliente .container-ejemplos .ejemplo-trabajo:hover {
         scale: 1.08;
         border-radius: 2px; }
+  .main .trabajos .uno {
+    animation: aparicionElementos;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s; }
+  .main .trabajos .dos {
+    animation: aparicionElementos2;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s; }
+  .main .trabajos .tres {
+    animation: aparicionElementos;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s; }
 
-@media (min-width: 750px) {
+@media (min-width: 1115px) {
   .main .trabajos .container-cliente {
-    margin: 2rem; } }
+    margin: 2rem auto; } }
 
 /*  Formacion  */
+/*  Animaciones  */
+@keyframes aparicionElementos {
+  0% {
+    left: 180px; }
+  100% {
+    left: 0; } }
+
+@keyframes aparicionElementos2 {
+  0% {
+    right: 180px; }
+  100% {
+    right: 0; } }
+
 .main .formacion {
   text-align: center;
   display: inline; }
@@ -9469,6 +9520,7 @@ footer .container-footer-volver {
     align-content: flex-end;
     flex-wrap: wrap; }
     .main .formacion .container-certificaciones .container-certificacion {
+      background-color: #F2DAC4;
       border: 2px solid #333;
       border-radius: 10px;
       margin: 50px;
@@ -9477,7 +9529,36 @@ footer .container-footer-volver {
       flex-direction: column;
       justify-content: space-around;
       max-width: 350px;
-      min-height: 150px; }
+      min-height: 150px;
+      transition: all 0.2s;
+      position: relative; }
+    .main .formacion .container-certificaciones .container-certificacion:hover {
+      scale: 1.08; }
+    .main .formacion .container-certificaciones .uno {
+      animation: aparicionElementos;
+      animation-duration: 2s;
+      animation-timing-function: ease;
+      animation-delay: 0.5s; }
+    .main .formacion .container-certificaciones .dos {
+      animation: aparicionElementos;
+      animation-duration: 2.5s;
+      animation-timing-function: ease;
+      animation-delay: 0.5s; }
+    .main .formacion .container-certificaciones .tres {
+      animation: aparicionElementos;
+      animation-duration: 3s;
+      animation-timing-function: ease;
+      animation-delay: 0.5s; }
+    .main .formacion .container-certificaciones .cuatro {
+      animation: aparicionElementos;
+      animation-duration: 3.5s;
+      animation-timing-function: ease;
+      animation-delay: 0.5s; }
+    .main .formacion .container-certificaciones .cinco {
+      animation: aparicionElementos;
+      animation-duration: 4s;
+      animation-timing-function: ease;
+      animation-delay: 0.5s; }
 
 /*  Sobre mi  */
 .main .sobreMi {
@@ -9486,6 +9567,7 @@ footer .container-footer-volver {
   align-items: center;
   flex-direction: column; }
   .main .sobreMi .container-apartadoPersonal {
+    background-color: #F2DAC4;
     border: 2px solid #333;
     border-radius: 10px;
     width: 85vw;
@@ -9507,11 +9589,13 @@ footer .container-footer-volver {
         margin: auto; }
 
 @media (min-width: 950px) {
-  .main .sobreMi .container-apartadoPersonal .text-img-personal {
-    flex-direction: row; }
-    .main .sobreMi .container-apartadoPersonal .text-img-personal .img-sobreMi {
-      width: 30vw;
-      min-width: 22rem; } }
+  .main .sobreMi .container-apartadoPersonal {
+    width: 75vw; }
+    .main .sobreMi .container-apartadoPersonal .text-img-personal {
+      flex-direction: row; }
+      .main .sobreMi .container-apartadoPersonal .text-img-personal .img-sobreMi {
+        width: 30vw;
+        min-width: 22rem; } }
 
 /*  Contactos  */
 /* Definiendo variables de colores */
