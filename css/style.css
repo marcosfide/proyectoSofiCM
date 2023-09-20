@@ -9445,12 +9445,6 @@ footer .container-footer-volver {
     max-width: 700px; } }
 
 /* Clientes y trabajos */
-@keyframes aparicionElementos {
-  0% {
-    left: 180px; }
-  100% {
-    left: 0; } }
-
 .main .trabajos {
   text-align: center; }
   .main .trabajos .container-cliente {
