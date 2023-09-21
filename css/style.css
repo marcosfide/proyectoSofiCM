@@ -9417,7 +9417,7 @@ footer .container-footer-volver {
 .main .trabajos {
   text-align: center; }
   .main .trabajos .container-experiencia {
-    background-color: #F2DAC4;
+    background-color: #F2DAC499;
     border: 2px solid #333;
     border-radius: 10px;
     margin: 1rem;
@@ -9448,7 +9448,7 @@ footer .container-footer-volver {
 .main .trabajos {
   text-align: center; }
   .main .trabajos .container-cliente {
-    background-color: #F2DAC4;
+    background-color: #F2DAC499;
     border: 2px solid #333;
     border-radius: 10px;
     max-width: 70rem;
@@ -9514,7 +9514,7 @@ footer .container-footer-volver {
     align-content: flex-end;
     flex-wrap: wrap; }
     .main .formacion .container-certificaciones .container-certificacion {
-      background-color: #F2DAC4;
+      background-color: #F2DAC499;
       border: 2px solid #333;
       border-radius: 10px;
       margin: 50px;
@@ -9561,7 +9561,7 @@ footer .container-footer-volver {
   align-items: center;
   flex-direction: column; }
   .main .sobreMi .container-apartadoPersonal {
-    background-color: #F2DAC4;
+    background-color: #F2DAC499;
     border: 2px solid #333;
     border-radius: 10px;
     width: 85vw;
@@ -9596,6 +9596,7 @@ footer .container-footer-volver {
 .contactos {
   max-width: none; }
   .contactos .form {
+    background-color: #F2DAC499;
     border: 2px solid #333;
     border-radius: 10px;
     padding: 20px;
